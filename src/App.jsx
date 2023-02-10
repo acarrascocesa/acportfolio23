@@ -3,6 +3,7 @@ import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import NavBar from "./components/NavBar"
 import { useEffect, useState } from "react";
 
 function App() {
@@ -73,6 +74,7 @@ function App() {
       </button>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div >
+          <NavBar />
           <Intro />
           <Portfolio />
           <Certificates />
