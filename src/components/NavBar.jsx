@@ -12,7 +12,7 @@ const Header = () => {
             to="home" 
             smooth={true}
             spy={true}
-            className="hover:text-[#7a7cf3] transition-colors"
+            className="hover:text-[#7a7cf3] transition-colors cursor-pointer"
             >
                 Home
             </Link>
@@ -20,7 +20,7 @@ const Header = () => {
             to="portfolio" 
             smooth={true}
             spy={true}
-            className="hover:text-[#7a7cf3] transition-colors"
+            className="hover:text-[#7a7cf3] transition-colors cursor-pointer"
             >
                 Portfolio
             </Link>
@@ -28,7 +28,7 @@ const Header = () => {
             to="certificates" 
             smooth={true}
             spy={true}
-            className="hover:text-[#7a7cf3] transition-colors"
+            className="hover:text-[#7a7cf3] transition-colors cursor-pointer"
             >
                 Certificates
             </Link>
@@ -36,7 +36,7 @@ const Header = () => {
             to="contact" 
             smooth={true}
             spy={true}
-            className="hover:text-[#7a7cf3] transition-colors"
+            className="hover:text-[#7a7cf3] transition-colors cursor-pointer"
             >
                 Contact
             </Link>
