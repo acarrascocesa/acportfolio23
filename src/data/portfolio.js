@@ -5,6 +5,7 @@ import form from "./projects/form.png"
 import pokedex from "./projects/pokedex.png"
 import portfolio from "./projects/portfolio.png"
 import weatherapp from "./projects/weatherapp.png"
+import webserver from "./projects/webserver.png"
 
 export default [
     {
@@ -42,6 +43,12 @@ export default [
         img: form,
         stack: ["React", "Tailwind", "Javascript", "Vite"],
         link: "https://petshopac.netlify.app/"
+    },
+    {
+        title: "Node Webserver",
+        img: webserver,
+        stack: ["Node", "HTML", "CSS", "Javascript"],
+        link: "https://node-webserver-ac.up.railway.app/"
     },
     {
         title: "Store",
