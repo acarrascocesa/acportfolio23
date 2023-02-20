@@ -6,6 +6,7 @@ import pokedex from "./projects/pokedex.png"
 import portfolio from "./projects/portfolio.png"
 import weatherapp from "./projects/weatherapp.png"
 import webserver from "./projects/webserver.png"
+import login from "./projects/login.png"
 
 export default [
     {
@@ -37,6 +38,12 @@ export default [
         img: weatherapp,
         stack: ["React", "CSS", "Javascript", "Vite"],
         link: "https://acweatherapp.netlify.app/"
+    },
+    {
+        title: "Google Login",
+        img: login,
+        stack: ["React", "Styled-components", "Javascript", "Firebase"],
+        link: "acgooglelogin.netlify.app"
     },
     {
         title: "CRUD Form",
