@@ -43,7 +43,7 @@ export default [
         title: "Google Login",
         img: login,
         stack: ["React", "Styled-components", "Javascript", "Firebase"],
-        link: "acgooglelogin.netlify.app"
+        link: "https://acgooglelogin.netlify.app/"
     },
     {
         title: "CRUD Form",
