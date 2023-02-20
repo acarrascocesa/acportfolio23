@@ -7,6 +7,7 @@ import portfolio from "./projects/portfolio.png"
 import weatherapp from "./projects/weatherapp.png"
 import webserver from "./projects/webserver.png"
 import login from "./projects/login.png"
+import calculator from "./projects/calculator.png"
 
 export default [
     {
@@ -44,6 +45,12 @@ export default [
         img: login,
         stack: ["React", "Styled-components", "Javascript", "Firebase"],
         link: "https://acgooglelogin.netlify.app/"
+    },
+    {
+        title: "Calculator App",
+        img: calculator,
+        stack: ["Flutter", "Dart", "MaterialApp"],
+        link: "https://github.com/acarrascocesa/fluttercalculator"
     },
     {
         title: "CRUD Form",
