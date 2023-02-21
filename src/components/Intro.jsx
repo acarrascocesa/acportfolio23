@@ -9,7 +9,7 @@ const Intro = () => {
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold">
         I'm a Fullstackk Developer. I can handle HTML, CSS, Javascript, React,
-        Python, Git and Node for the backend. 
+        Python, Dart, Flutter and Node for the backend. 
         <br />
         I am a hardworking person who seeks to apply all his knowledge and continue learning about programming.
         <br />

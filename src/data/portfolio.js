@@ -8,6 +8,7 @@ import weatherapp from "./projects/weatherapp.png"
 import webserver from "./projects/webserver.png"
 import login from "./projects/login.png"
 import calculator from "./projects/calculator.png"
+import restserver from "./projects/restserver.png"
 
 export default [
     {
@@ -57,6 +58,12 @@ export default [
         img: form,
         stack: ["React", "Tailwind", "Javascript", "Vite"],
         link: "https://petshopac.netlify.app/"
+    },
+    {
+        title: "Node Rest Server",
+        img: restserver,
+        stack: ["Node", "HTML", "Express", "Javascript"],
+        link: "https://restserverac.up.railway.app/"
     },
     {
         title: "Node Webserver",
