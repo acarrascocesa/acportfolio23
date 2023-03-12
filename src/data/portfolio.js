@@ -10,6 +10,7 @@ import login from "./projects/login.png"
 import calculator from "./projects/calculator.png"
 import restserver from "./projects/restserver.png"
 import food from "./projects/food.png"
+import shopping from "./projects/shopping.png"
 
 
 export default [
@@ -78,6 +79,12 @@ export default [
         img: webserver,
         stack: ["Node", "HTML", "CSS", "Javascript"],
         link: "https://node-webserver-ac.up.railway.app/"
+    },
+    {
+        title: "Shopping Cart",
+        img: shopping,
+        stack: ["React", "CSS", "React Router"],
+        link: "https://acshoppingcart.netlify.app/"
     },
     {
         title: "Store",
