@@ -9,6 +9,8 @@ import webserver from "./projects/webserver.png"
 import login from "./projects/login.png"
 import calculator from "./projects/calculator.png"
 import restserver from "./projects/restserver.png"
+import food from "./projects/food.png"
+
 
 export default [
     {
@@ -16,6 +18,12 @@ export default [
         img: crypto,
         stack: ["React", "Styled Components", "Vite"],
         link: "https://accryptos.netlify.app/"
+    },
+    {
+        title: "Food App",
+        img: food,
+        stack: ["React", "Sass", "Axios", "Vite"],
+        link: "https://acfood.netlify.app/"
     },
     {
         title: "Developer Portfolio",
